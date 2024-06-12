@@ -3,3 +3,25 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+div {
+    border: 1px solid yellow;
+}
+
+header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5em;
+}
+
+.links {
+    display: flex;
+}
+.link {
+    margin-right: 10px;
+}
