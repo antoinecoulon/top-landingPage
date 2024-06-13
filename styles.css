@@ -1,22 +1,23 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 div {
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
 }
 
 header {
     background-color: #1F2937;
     color: #F9FAF8;
+    font-family: Helvetica, sans-serif;
 }
 
 .head {
     display: flex;
     justify-content: space-between;
-    margin: 0 5em;
+    margin: 0 10%;
 }
 
 .links {
@@ -24,4 +25,32 @@ header {
 }
 .link {
     margin-right: 10px;
+}
+
+.bigHead {
+    display: flex;
+    justify-content: space-around;
+    margin: 5em 10%;
+}
+.bigHead .left {
+    font-size: 48px;
+    font-weight: bolder;
+    width: 40%;
+    
+}
+.bigHead .left p {
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 1.5em;
+}
+.bigHead .right {
+    flex-basis: 60%;
+}
+
+.banner {
+    width: 70%;
+    display: block;
+    margin: auto;
+    padding: 2em;
+    /* border: 1px solid #F9FAF8; */
 }
