@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     /* box-sizing: border-box; */
+    font-family: Helvetica, sans-serif;
 }
 
 /* div {
@@ -11,7 +12,7 @@
 header {
     background-color: #1F2937;
     color: #F9FAF8;
-    font-family: Helvetica, sans-serif;
+    
     padding-top: 20px;
     padding-bottom: 50px;
 }
@@ -89,4 +90,28 @@ header {
     height: 150px;
     border: 2px solid #3882F6;
     border-radius: 10px;
+}
+
+#quote {
+    
+    width: 100%;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 50px 0;
+}
+#quote p {
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+.author {
+    display: block;
+    text-align: end;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 20px;
 }
