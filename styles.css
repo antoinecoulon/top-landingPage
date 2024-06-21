@@ -115,3 +115,30 @@ header {
     font-size: 18px;
     padding-top: 20px;
 }
+
+.box {
+    width: 70%;
+    background-color: #3882F6;
+    margin: 50px auto;
+    padding: 32px;
+    border-radius: 20px;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box .second {
+    font-size: 12px;
+    font-weight: 400;
+}
+.box button {
+    border: 1px solid #E5E7EB;
+    background-color: transparent;
+    padding: 10px 20px;
+    color: #E5E7EB;
+    border-radius: 10px;
+    font-weight: 800;
+}
